@@ -6,6 +6,9 @@ import PortofolioView from '../views/PortofolioView.vue'
 import Portofolio2View from '../views/Portofolio2View.vue'
 import Portofolio3View from '../views/Portofolio3View.vue'
 import ReviewView from '../views/ReviewView.vue'
+import TeamView from '../views/TeamView.vue'
+import ContactView from '../views/ContactView.vue'
+import BlogView from '../views/BlogView.vue'
 
 
 
@@ -49,6 +52,21 @@ const router = createRouter({
       path: '/reviews',
       name: 'Review',
       component: ReviewView
+    },
+    {
+      path: '/team',
+      name: 'Team',
+      component: TeamView
+    },
+    {
+      path: '/contact',
+      name: 'Contact',
+      component: ContactView
+    },
+    {
+      path: '/blog',
+      name: 'Blog',
+      component: BlogView
     }
   ]
 })
