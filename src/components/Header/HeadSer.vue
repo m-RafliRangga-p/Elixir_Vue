@@ -19,7 +19,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><router-link to="/service" class="dropdown-item">UI/UX Design</router-link></li>
-                  <li><router-link to="/service#services-2" class="dropdown-item">Website Maker</router-link></li>
+                  <li><router-link to="/service2" class="dropdown-item">Website Maker</router-link></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -28,8 +28,8 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><router-link to="/portofolio" class="dropdown-item">Portofolio 1</router-link></li>
-                  <li><router-link to="/portofolio#portofolio-2" class="dropdown-item">Portofolio 2</router-link></li>
-                  <li><router-link to="/portofolio#portofolio-3" class="dropdown-item">Portofolio 3</router-link></li>
+                  <li><router-link to="/portofolio2" class="dropdown-item">Portofolio 2</router-link></li>
+                  <li><router-link to="/portofolio3" class="dropdown-item">Portofolio 3</router-link></li>
                 </ul>
               </li>
               <li class="nav-item">

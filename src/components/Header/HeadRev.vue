@@ -11,7 +11,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <router-link to="/" class="nav-link active">Home</router-link>
+                <router-link to="/" class="nav-link">Home</router-link>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -33,7 +33,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <router-link to="/reviews" class="nav-link">Reviews</router-link>
+                <router-link to="/reviews" class="nav-link active">Reviews</router-link>
               </li>
               <li class="nav-item">
                 <router-link to="/team" class="nav-link">Teams</router-link>
